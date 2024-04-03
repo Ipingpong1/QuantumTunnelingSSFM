@@ -34,12 +34,6 @@ for m = 1:1:M % Start time loop
     u(N) = 0;
 
     
-    hold on
-    plot(ts, val)
-    disp(trapz(x, abs(u).^2))
-
-    hold off
-    pause(.001)
-    clf()
+    %--plot here if desired--%
  
 end
